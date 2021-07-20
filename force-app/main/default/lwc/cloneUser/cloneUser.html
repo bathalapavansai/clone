@@ -1,0 +1,60 @@
+<template>
+    <lightning-card title="Quick Actions">
+        <hr class="slds-var-m-around_medium">
+        <lightning-button class="slds-var-m-left_medium" title="Clone User" variant="brand" label="Clone User" onclick={handleModal}></lightning-button>
+        <template if:true={openModal}> 
+                <section role="dialog"  aria-labelledby="modal-heading-01" aria-modal="true" class="slds-modal slds-fade-in-open slds-modal_medium">
+                    <div class="slds-modal__container"> 
+                        <header class="slds-modal__header">
+                            <h2 class="slds-modal__title">New User Details</h2>
+                        </header>
+                        <div class="slds-modal__content">
+                            <div class="slds-var-m-around_small" style="width: 90%;">
+                                <lightning-record-edit-form object-api-name="User" onsuccess={handleSuccess} class="slds-form-element_stacked">
+                                    <table class="slds-var-m-around_large">
+                                        <tr>
+                                            <td><lightning-input-field field-name="FirstName"></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="LastName"></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="Email" onchange={populateUserName}></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="Username" value={username}></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="FederationIdentifier"></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="LocaleSidKey" value={locale}></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="TimeZoneSidKey" value={timeZone}></lightning-input-field><br/></td>
+                                        </tr>
+                                        <tr>
+                                            <td><lightning-input-field field-name="EmailEncodingKey" value={emailEncoding} ></lightning-input-field><br/></td>
+                                        </tr>
+                                        
+                                    </table>
+                                    <lightning-input-field  field-name="ProfileId"></lightning-input-field>
+                                    
+                                    
+                                    
+                                    <div class="slds-m-top_medium slds-align_absolute-center">
+                                        <lightning-button class="slds-m-top_small" label="Cancel" onclick={handleReset}></lightning-button>
+                                        <lightning-button class="slds-m-top_small slds-var-p-left_medium" type="submit" variant="brand" label="Create User"></lightning-button>
+                                    </div>
+                                </lightning-record-edit-form>
+                            </div>
+                        </div>
+                        <footer class="slds-modal__footer">
+                            <lightning-button label="Close" variant="brand-outline" onclick={handleModal}></lightning-button>
+                        </footer>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>  
+    </lightning-card>
+</template>

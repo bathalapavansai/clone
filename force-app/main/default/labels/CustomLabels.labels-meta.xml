@@ -1,0 +1,3522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+	<labels>
+        <fullName>OTP_Ask_Customer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP_Ask_Customer</shortDescription>
+        <value>Ask the customer to provide the code to complete authentication.</value>
+    </labels>	  
+	<labels>
+        <fullName>otpprovidemessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>otpprovidemessage</shortDescription>
+        <value>They will need to provide the 6-digit verification code back for authentication.</value>
+    </labels>
+	<labels>
+        <fullName>cancellationscreenattemptmessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>cancellationscreenattemptmessage</shortDescription>
+        <value>Cancelling while attempting to authenticate will counted as an attempt.</value>
+    </labels>
+	<labels>
+        <fullName>cancellationscreensuremessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>cancellationscreensuremessage</shortDescription>
+        <value>Are you sure you want to cancel authentication?</value>
+    </labels>	    
+    <labels>
+        <fullName>AC_ProductNewInternet</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ProductNewInternet</shortDescription>
+        <value>New Internet or Phone Lines</value>
+    </labels>
+	<labels>
+        <fullName>AC_SAFETeamCaseComment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_SAFETeamCaseComment</shortDescription>
+        <value>Case assigned to the SAFE Team. Edit, Reopen and Reassign access permanently restricted for this case, to the SAFE Team.</value>
+    </labels>
+    <labels>
+        <fullName>AC_ReasonDelayed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ReasonDelayed</shortDescription>
+        <value>Delayed Order</value>
+    </labels>
+    <labels>
+        <fullName>AC_ReasonSomething</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ReasonSomething</shortDescription>
+        <value>Something Else</value>
+    </labels>
+   <labels>
+        <fullName>AppointmentSlot</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentSlot</shortDescription>
+        <value>Slot</value>
+    </labels>
+   <labels>
+        <fullName>AC_CLIAPI_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLI API Error</shortDescription>
+        <value>Error in retrieving CLI details. Please try again later</value>
+   </labels>
+   <labels>
+        <fullName>AC_CLI_Update_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLI Update Successful</shortDescription>
+        <value>CLI Update Successful!</value>
+   </labels>
+   <labels>
+        <fullName>Ac_Disconnect_Changing_Carriers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ac_Disconnect - Changing Carriers</shortDescription>
+        <value>Disconnect_Changing_Carriers</value>
+    </labels>
+	 <labels>
+        <fullName>ProductAPIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProductAPIError</shortDescription>
+        <value>Unable to retrieve Product Details at this time. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>ProductException</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProductException</shortDescription>
+        <value>Error loading Order Product Details. Please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ProductsNotPresent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProductsNotPresent</shortDescription>
+        <value>There are no Products for this Order.</value>
+    </labels>
+	<labels>
+        <fullName>AC_CLI_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLI API Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>AC_Dormant_Usage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dormant Usage</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>AC_Caller_Line_Identification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Caller Line Identification</shortDescription>
+        <value>Caller Line Identification</value>
+    </labels>
+	<labels>
+        <fullName>AC_CLI_Refresh</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clickable Refresh text which will re-trigger the CLI API upon clicking.</shortDescription>
+        <value>Refresh</value>
+    </labels>
+	<labels>
+        <fullName>OTP_Authentication_challenge_undelivered</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Authentication challenge undelivered</shortDescription>
+        <value>Authentication challenge undelivered</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Authentication_service_error</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Authentication service error</shortDescription>
+        <value>Authentication service error</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Maximum_attempts_reached</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Maximum attempts reached</shortDescription>
+        <value>Maximum attempts reached!</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Medium_Type_SMS</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Medium Type SMS</shortDescription>
+        <value>SMS</value>
+    </labels>
+  	<labels>
+        <fullName>AC_OSTDXPError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_OSTDXPError</shortDescription>
+        <value>Unable to load DXP Orders at this time. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>RestrictTaskOwnerChangeMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestrictTaskOwnerChangeMsg</shortDescription>
+        <value>Please reschedule all overdue Tasks before changing Case Owner. Go to Open Activities on the Related tab to view the tasks.</value>
+    </labels>
+    <labels>
+        <fullName>AC_OSTStandardError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_OSTStandardError</shortDescription>
+        <value>Unable to retrieve Order Detail at this time. Please try again later.</value>
+    </labels>
+  <labels>
+        <fullName>OTP_Medium_Type_email</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Medium Type email</shortDescription>
+        <value>email</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Registered_Email</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Registered Email</shortDescription>
+        <value>Registered Email</value>
+    </labels>
+	<labels>
+        <fullName>REASON_CODES</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+      	<shortDescription>REASON CODES</shortDescription>
+        <value>NBN RSP Action Required;RSPActionReasonCode;ALOM5501;ALOM5502</value>
+    </labels>
+	<labels>
+        <fullName>NBN_APPOINTMENT_LABEL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NBN_APPOINTMENT_LABEL</shortDescription>
+        <value>NBN Appointment Required</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Registered_Mobile_Number</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Registered Mobile Number</shortDescription>
+        <value>Registered Mobile Number</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Send_New_By_email</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Send New By email</shortDescription>
+        <value>Send new by email</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Send_New_By_mobile</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Send New By mobile</shortDescription>
+        <value>Send new by mobile</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Send_New_SMS</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Send New SMS</shortDescription>
+        <value>Send new SMS</value>
+    </labels>
+    <labels>
+        <fullName>OTP_Send_New_email</fullName>
+        <categories>OTP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OTP Send New email</shortDescription>
+        <value>Send new email</value>
+    </labels>
+<labels>
+        <fullName>ACNBNAMflow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ACNBNAMflow</shortDescription>
+        <value>AC_NBNAM_flow</value>
+    </labels>
+		<labels>
+        <fullName>AC_Mobile_Postpaid_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display error when no mobile postpaid services are loaded.</shortDescription>
+        <value>Error loading Mobile postpaid Service. Please contact admin for more details.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Mobile_Postpaid_Services</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mobile Postpaid Services</shortDescription>
+        <value>Mobile Postpaid Services</value>
+    </labels>
+    <labels>
+        <fullName>AC_Mobile_Postpaid_Services_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Mobile Postpaid subscription services.</shortDescription>
+        <value>This customer has no Mobile Postpaid subscription services at this time.</value>
+    </labels>
+	<labels>
+        <fullName>AC_In_Collection</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_In_Collection</shortDescription>
+        <value>In Collection</value>
+    </labels>
+	<labels>
+        <fullName>AC_Collection_Hold_Expiry_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Collection_Hold_Expiry_Date</shortDescription>
+        <value>Collection Hold Expiry Date</value>
+    </labels>
+    <labels>
+        <fullName>AC_Collection_Hold_Reason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Collection_Hold_Reason</shortDescription>
+        <value>Collection Hold Reason</value>
+    </labels>
+	<labels>
+        <fullName>AC_Task_Type_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Task_Type_Validation</shortDescription>
+        <value>The selected queue does not accept this type of Task.</value>
+    </labels>
+	<labels>
+        <fullName>AC_FixedUnlDataBalanceId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fixedUnlDataBalanceId</shortDescription>
+        <value>66105</value>
+    </labels>
+	<labels>
+        <fullName>AC_FixedLimDataBalanceId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fixed Limited Data BalanceId</shortDescription>
+        <value>51017</value>
+    </labels>
+	<labels>
+        <fullName>AC_IddCallsBalId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>iddCallsBalId</shortDescription>
+        <value>63115</value>
+    </labels>
+	<labels>
+        <fullName>AC_SattCallsBalId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sattCallsBalId</shortDescription>
+        <value>63116</value>
+    </labels>
+	<labels>
+	  <fullName>AC_Error_GatekeeperComplaintCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Error_GatekeeperComplaintCase</shortDescription>
+        <value>You can&apos;t edit Closed or Withdrawn cases.</value>
+    </labels>
+	<labels>
+        <fullName>AC_Task_Type_Validation_Digital_Connect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Task Type Validation Digital Connect</shortDescription>
+        <value>The selected queue does not accept Tasks that are related to this Case Type.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Cannot_Save_General_Task</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Cannot Save General Task</shortDescription>
+        <value>The selected Category is not allowed for Tasks that are related to this Case Type.</value>
+    </labels>
+	<labels>
+        <fullName>AC_RequestedResolution</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_RequestedResolution</shortDescription>
+        <value>New Case as a Result of agent replying to email with no Case link. Find relevant Case and relate to new case.</value>
+    </labels>
+	<labels>
+        <fullName>AC_CallBackAgreedDesc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CallBackAgreedDesc</shortDescription>
+        <value>Task automatically created for Next Agreed Follow-Up Date.</value>
+    </labels>
+    <labels>
+        <fullName>OC_AC_ChangeDirectory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_ChangeDirectory</shortDescription>
+        <value>Change Directory</value>
+    </labels>
+	<labels>
+        <fullName>AC_OrdRemCaseDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pouplate the Description field on the Order Remidiation Case with the value</shortDescription>
+        <value>Case automatically created for order remediation activity.</value>
+    </labels>
+	<labels>
+        <fullName>Eligiblity_Display_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eligiblity Dispay Error</shortDescription>
+        <value>Error Occurred in Eligiblity Services. Please Contact System Administrator</value>
+    </labels>
+	<labels>
+        <fullName>Legacy_Display_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Legacy Display Error</shortDescription>
+        <value>Error Occurred in Legacy/Heritage Services. Please Contact System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>OC_AC_ChangeNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_ChangeNumber</shortDescription>
+        <value>Change Number</value>
+    </labels>
+    <labels>
+        <fullName>OC_AC_Disconnect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_Disconnect</shortDescription>
+        <value>Disconnect</value>
+    </labels>
+    <labels>
+        <fullName>OC_AC_ReplaceSIM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_ReplaceSIM</shortDescription>
+        <value>Replace SIM</value>
+    </labels>
+	<labels>
+        <fullName>OC_AC_ActivateSIM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_ActivateSIM</shortDescription>
+        <value>Activate SIM</value>
+    </labels>
+    <labels>
+        <fullName>OC_AC_ResumeService</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_ResumeService</shortDescription>
+        <value>Resume</value>
+    </labels>
+    <labels>
+        <fullName>OC_AC_SuspendSIM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OC_AC_SuspendSIM</shortDescription>
+        <value>Suspend</value>
+    </labels>
+	<labels>
+        <fullName>AC_GeneralTaskAgreedDesc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_GeneralTaskAgreedDesc</shortDescription>
+        <value>Task automatically created for Next Agreed Follow-Up Date</value>
+    </labels>
+	<labels>
+        <fullName>GraphQLAPI</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint for GraphQL API</shortDescription>
+        <value>https://payments.sandbox.braintree-api.com/graphql</value>
+    </labels>
+	<labels>
+        <fullName>AC_CustomerSearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CustomerSearch</shortDescription>
+        <value>Customer Search</value>
+    </labels>
+    <labels>
+        <fullName>AC_GeneralTaskDesc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_GeneralTaskDesc</shortDescription>
+        <value>Task automatically created for Collection Hold Expiry. Please extend Collection Hold if customer is still in Financial Hardship.</value>
+    </labels>
+	    <labels>
+        <fullName>Fixed_Services</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fixed Services</shortDescription>
+        <value>Fixed Service</value>
+    </labels>
+	<labels>
+        <fullName>AC_Refund_History_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Refund_History_APIError</shortDescription>
+        <value>Error retrieving the refund history, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Refund_History_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Refund_History_NoRecord</shortDescription>
+        <value>No refund records found</value>
+    </labels>
+	<labels>
+        <fullName>AC_NewCase</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_NewCase</shortDescription>
+        <value>New Case</value>
+    </labels>
+    <labels>
+        <fullName>AC_NoCollectionServiceInvoice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_NoCollectionServiceInvoice</shortDescription>
+        <value>No valid actions available. If there is an existing Collection Hold in place, please open the original Case to make any required changes.</value>
+    </labels>
+	<labels>
+        <fullName>NoSubcriptionsLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoSubcriptionsLabel</shortDescription>
+        <value>This customer has no subscription services at this time.</value>
+    </labels>
+	<labels>
+        <fullName>NonTelstraCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonTelstraCustomer</shortDescription>
+        <value>Non-Telstra Customer</value>
+    </labels>
+	 <labels>
+        <fullName>SubscriptionsHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubscriptionsHeading</shortDescription>
+        <value>Subscriptions</value>
+    </labels>
+	<labels>
+        <fullName>BilledServicesHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BilledServicesHeading</shortDescription>
+        <value>Billed Services</value>
+    </labels>
+    <labels>
+        <fullName>AC_Delete_Payment_Confirm_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Delete_Payment_Confirm_Msg</shortDescription>
+        <value>Are you sure you want to delete the following method?</value>
+    </labels>
+    <labels>
+        <fullName>AC_Delete_Payment_Method_Fail_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Delete_Payment_Method_Fail_Msg</shortDescription>
+        <value>Unable to delete payment method as default. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Delete_Payment_Method_Head_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Delete_Payment_Method_Head_Msg</shortDescription>
+        <value>Delete Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>AC_Delete_Payment_Method_Success_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Delete_Payment_Method_Success_Msg</shortDescription>
+        <value>Deleted payment method successfully</value>
+    </labels>
+    <labels>
+        <fullName>AC_ValidCaseidError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidCaseidError</shortDescription>
+        <value>Enter a valid Case ID for this customer</value>
+    </labels>
+    <labels>
+        <fullName>AC_CaseOwnerNotInQueueError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Owner Not In Queue Error</shortDescription>
+        <value>Only Queue Member can change the Case Owner</value>
+    </labels>
+	<labels>
+        <fullName>AC_CaseAccConRelation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account contact relation check on case contact field</shortDescription>
+        <value>Account and Contact on case are not related.</value>
+    </labels>
+  	<labels>
+        <fullName>AC_CaseConInactive</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Error for Inactive contact.</shortDescription>
+        <value>The selected Contact is no longer active.</value>
+    </labels>
+  	<labels>
+        <fullName>AC_CaseAccConNotAuthorized</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account contact relation End date is less than today and contact is not active.</shortDescription>
+        <value>The selected Contact is no longer authorised on this Account.</value>
+    </labels>
+	<labels>
+        <fullName>AC_GatekeeperPermissionSetName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Gatekeeper Permission Set Name</shortDescription>
+        <value>Gatekeeper</value>
+    </labels>
+    <labels>
+        <fullName>AC_Usage_Failed_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Usage_Failed_APIError</shortDescription>
+        <value>Unable to retrieve Data Usage at this time. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>CustomerStoryTimedOutError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerStoryTimedOutError</shortDescription>
+        <value>Something went wrong. An error is preventing Customer Stories from displaying.</value>
+    </labels>
+    <labels>
+        <fullName>PS_Create_Fault_Case</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PS_Create_Fault_Case</shortDescription>
+        <value>PS_Create_Fault_Case</value>
+    </labels>
+    <labels>
+        <fullName>PS_Device_Case_Management</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PS_Device_Case_Management</shortDescription>
+        <value>PS_Device_Care_Case_Management</value>
+    </labels>
+    <labels>
+        <fullName>AC_ChangeNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ChangeNumber</shortDescription>
+        <value>Change Number</value>
+    </labels>
+    <labels>
+        <fullName>AC_CustomerStoryMoreInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Story More Info</shortDescription>
+        <value>More info</value>
+    </labels>
+    <labels>
+        <fullName>AC_IncidentActionedError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_IncidentActionedError</shortDescription>
+        <value>This action is not available for this Issue code.</value>
+    </labels>
+    <labels>
+        <fullName>AC_IncludeExternalStories</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include External Stories</shortDescription>
+        <value>Include external stories</value>
+    </labels>
+	    <labels>
+        <fullName>AC_Migrate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Service Migration</shortDescription>
+        <value>Migrate</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_APIError</shortDescription>
+        <value>Error retrieving the payment history, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_Failed_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_Failed_APIError</shortDescription>
+        <value>Error retrieving the failed payment history, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_Failed_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_Failed_NoRecord</shortDescription>
+        <value>No failed payment records found</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_NoRecord</shortDescription>
+        <value>No payment records found</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Method_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Method_APIError</shortDescription>
+        <value>Error retrieving the payment methods, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Method_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Method_NoRecord</shortDescription>
+        <value>No payment methods found</value>
+    </labels>
+    <labels>
+        <fullName>AC_Task_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Task Description</shortDescription>
+        <value>Task automatically created for Collection Hold Expiry. Please extend Collection Hold if complaint is still open.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Validation_Confirmation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Validation Confirmation Message</shortDescription>
+        <value>Are you sure you wish to validate your article without making any updates?</value>
+    </labels>
+    <labels>
+        <fullName>AC_ReplaceSIM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ReplaceSIM</shortDescription>
+        <value>Replace SIM</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceAddOns</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceAddOns</shortDescription>
+        <value>Add Ons</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceDevice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceDevice</shortDescription>
+        <value>Device</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceID</shortDescription>
+        <value>Service ID</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceOverview</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceOverview</shortDescription>
+        <value>Overview</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServicePlan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServicePlan</shortDescription>
+        <value>Plan</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceStatus</shortDescription>
+        <value>Service Status</value>
+    </labels>
+    <labels>
+        <fullName>AC_Service_Contact_Authenticated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Service_Contact_Authenticated</shortDescription>
+        <value>This contact is Account Owner/Full Authority and I have performed enhanced authentication for this contact</value>
+    </labels>
+	<labels>
+        <fullName>AC_DCP_AllowableActionProcedure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCP_AllowableAction_Procedure</shortDescription>
+        <value>CPQ_AllowableActions</value>
+    </labels>
+    <labels>
+        <fullName>AC_DCP_AssetToOrder_Procedure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCP_AssetToOrder_Procedure</shortDescription>
+        <value>HardwareReplacement_CreateAssetToOrder</value>
+    </labels>
+    <labels>
+        <fullName>AC_DCP_HardwareReplacementProcedure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCP_HardwareReplacementProcedure</shortDescription>
+        <value>HardwareReplacement_CreateWarrantyOrderLineItems</value>
+    </labels>
+	<labels>
+        <fullName>AC_DCP_DeviceCare_QueueName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCP_DeviceCare_QueueName</shortDescription>
+        <value>Device_Queue_Device_Care_Warehouse</value>
+    </labels>
+    <labels>
+        <fullName>CaseCloseWFutureEvents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case close with future-dated Events.</shortDescription>
+        <value>Please delete all future Events before closing the Case. Go to Open Activities on the Related tab to delete all future events.</value>
+    </labels>
+    <labels>
+        <fullName>CaseCloseWOpenTasks</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Close with open Tasks.</shortDescription>
+        <value>Please close all Tasks before closing the Case. Go to Open Activities on the Related tab to close the tasks.</value>
+    </labels>
+    <labels>
+        <fullName>CaseCloseWOpenTasksWFutureEvents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case close with open Tasks and future-dated Events.</shortDescription>
+        <value>Please close all Tasks and delete all future Events  before closing the Case. To do this, go to Open Activities on the Related tab.</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Case_Event_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Case Event Error</shortDescription>
+        <value>You can&#39;t add an Event if the Case is closed.</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Case_Task_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Case Task Error</shortDescription>
+        <value>You can&#39;t add a Task if the Case is closed.</value>
+    </labels>
+	<labels>
+        <fullName>Close_Hours</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close Hours</shortDescription>
+        <value>-24</value>
+    </labels>
+    <labels>
+        <fullName>AC_Revalidation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Revalidation_Message</shortDescription>
+        <value>This article is now over 120 days old and requires re-validation.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Payment History Status</shortDescription>
+        <value>authorised, settling, settled, settlement_pending</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_VIP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Payment History VIP</shortDescription>
+        <value>AgentConsole_PaymentHistory</value>
+    </labels>
+	<labels>
+        <fullName>AC_Payment_Subscription_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Subscription_APIError</shortDescription>
+        <value>Error retrieving the upcoming payments, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Subscription_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Subscription_NoRecord</shortDescription>
+        <value>No upcoming payments found.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_APIError</shortDescription>
+        <value>Error retrieving migration eligibility, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Eligibility_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Eligibility_Heading</shortDescription>
+        <value>Migration Eligibility</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Eligible_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Eligible_Heading</shortDescription>
+        <value>Eligible for migration to new plan</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Eligible_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Eligible_Summary</shortDescription>
+        <value>Eligible for Subscription</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Ineligible_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Ineligible_Heading</shortDescription>
+        <value>Not eligible for migration to new plan</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Ineligible_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Ineligible_Summary</shortDescription>
+        <value>Not Eligible for Subscription</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Partially_Eligible_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Partially_Eligible_Heading</shortDescription>
+        <value>Partially eligible for migration to new plan</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Partially_Eligible_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Partially_Eligible_Summary</shortDescription>
+        <value>Partially Eligible for Subscription</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_Tab_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_Tab_Label</shortDescription>
+        <value>Migration Details</value>
+    </labels>
+    <labels>
+        <fullName>AC_Migration_View_Details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Migration_View_Details</shortDescription>
+        <value>View Details</value>
+    </labels>
+	<labels>
+        <fullName>AC_Task_Reminder_Validation</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Task_Reminder_Validation</shortDescription>
+        <value>Reminder Date must not be in the past and not later than Due Date.</value>
+    </labels>
+	<labels>
+        <fullName>AC_Disconnect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Disconnect button</shortDescription>
+        <value>Disconnect</value>
+    </labels>
+	<labels>
+        <fullName>AC_ETC_Display_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Display_Error</shortDescription>
+        <value>Error Loading in ETC Migration Details.Please Contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Change_Directory_Listing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Change directory listing button</shortDescription>
+        <value>Change directory listing</value>
+    </labels>
+    <labels>
+		<fullName>AC_Change_Directory_Listing_Page_URL</fullName>
+		<language>en_US</language>
+		<protected>false</protected>
+		<shortDescription>AC Change Directory Listing Page URL</shortDescription>
+		<value>/lightning/webpage/%2Fapex%2FchangeDL%3FassetReferenceId%3D</value>
+	</labels>
+    <labels>
+        <fullName>AC_Change_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Change_Number</shortDescription>
+        <value>Change Number</value>
+    </labels>
+    <labels>
+        <fullName>AC_Change_Number_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Change_Number_URL</shortDescription>
+        <value>/lightning/webpage/%2Fapex%2FchangeNumber%3FassetReferenceId%3D</value>
+    </labels>
+	<labels>
+        <fullName>AC_FixedAssetError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fixed Asset Error</shortDescription>
+        <value>Error occured in loading Fixed Subscription Plan Details. Please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Breakdown</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Breakdown</shortDescription>
+        <value>ETCs Breakdown</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Failed_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Failed_APIError</shortDescription>
+        <value>Error retrieving ETCs, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Final_Payable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Final_Payable</shortDescription>
+        <value>Final Payable</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Product_Code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Product_Code</shortDescription>
+        <value>Product Code:</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Summary</shortDescription>
+        <value>ETCs Summary</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Total</shortDescription>
+        <value>Total ETCs</value>
+    </labels>
+    <labels>
+        <fullName>AC_ETC_Waived</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ETC_Waived</shortDescription>
+        <value>Waived Charges</value>
+    </labels>
+    <labels>
+        <fullName>AC_Carbon_Heritage_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Carbon_Heritage_Error</shortDescription>
+        <value>Unable to retrieve heritage services at this time.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Carbon_Legacy_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Carbon_Legacy_Error</shortDescription>
+        <value>Unable to retrieve legacy services at this time.</value>
+    </labels>
+	<labels>
+        <fullName>AC_Subcription_VIP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Subcription_VIP</shortDescription>
+        <value>AgentConsole_GetAccountSubscriptions</value>
+    </labels>
+	<labels>
+        <fullName>AC_RODetail_VIP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_RODetail_VIP</shortDescription>
+        <value>AgentConsole_getRODetailView</value>
+    </labels>
+	<labels>
+        <fullName>AC_Task_Reminder_TimeLimitValidation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Task_Reminder_TimeLimitValidation</shortDescription>
+        <value>Please set Reminder Time between 6:00 AM and 11:00 PM.</value>
+    </labels>
+	<labels>
+        <fullName>AC_ComplCaseReopenErrorMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ComplCaseReopenErrorMsg</shortDescription>
+        <value>You must be a member of the applicable Public Group to re-open this case.</value>
+    </labels>
+    <labels>
+        <fullName>AC_UpdatePaymentEventType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_UpdatePaymentEventType</shortDescription>
+        <value>Add Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>AC_Upgrade_Protect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Upgrade&amp;Protect</shortDescription>
+        <value>Collection Treatment for Upgrade &amp; Protect must be the same as the Collection Treatment of the related device Repayment Option.</value>
+    </labels>
+    <labels>
+        <fullName>AC_GeneralTask</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_DeviceReturnTask</shortDescription>
+        <value>Task automatically created for Device Return order placement .
+
+Please access the related Case and use the Device Return Order button (under Actions &amp; Recommendations) to launch order creation.
+
+This Task will be closed automatically when the order is submitted.</value>
+    </labels>
+	<labels>
+        <fullName>NoPrepaidLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoPrepaidLabel</shortDescription>
+        <value>No strategic prepaid services.</value>
+    </labels>
+	<labels>
+        <fullName>ErrorLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorLabel</shortDescription>
+        <value>Unable to retrieve strategic prepaid services at this time. Please try again later</value>
+    </labels>
+    <labels>
+        <fullName>PrepaidServicesHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PrepaidServicesHeading</shortDescription>
+        <value>Mobile Prepaid Services</value>
+    </labels>
+    <labels>
+        <fullName>AC_OrderRemCaseReopenError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_OrderRemCaseReopenError</shortDescription>
+        <value>You can&apos;t edit Closed or Withdrawn cases.</value>
+    </labels>
+    <labels>
+        <fullName>AC_IncidentActionsWarning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_IncidentActionsWarning</shortDescription>
+        <value>Incident is Closed or has already been Actioned.</value>
+    </labels>
+    <labels>
+        <fullName>AC_IncidentCancelOrderWarning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_IncidentCancelOrderWarning</shortDescription>
+        <value>Order cannot be amended. Cancel Order and submit a new order.</value>
+    </labels>
+    <labels>
+        <fullName>AC_CannotChangeCaseOwner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC CannotChangeCaseOwner</shortDescription>
+        <value>You don&#39;t have permission to take that action on this record. For help, contact your Salesforce admin.</value>
+    </labels>
+	<labels>
+        <fullName>FixedServices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FixedServices</shortDescription>
+        <value>Fixed Services</value>
+    </labels>
+	<labels>
+		<fullName>AC_Disconnect_Asset_URL</fullName>
+		<language>en_US</language>
+		<protected>false</protected>
+		<shortDescription>AC Disconnect Asset URL</shortDescription>
+		<value>%26assetId%3D</value>
+	</labels>
+	<labels>
+		<fullName>AC_Disconnect_Page_URL</fullName>
+		<language>en_US</language>
+		<protected>false</protected>
+		<shortDescription>AC Disconnect Page URL</shortDescription>
+		<value>/lightning/webpage/%2Fapex%2FocACDisconnectFlowVF%3FaccountId%3D</value>
+	</labels>    
+	<labels>
+        <fullName>ERROR_FIXED_AssetServiceDetail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_FIXED_AssetServiceDetail</shortDescription>
+        <value>Error occurred in loading Fixed Subscription Plan Details. Please contact System Administrator.</value>
+    </labels>
+     <labels>
+        <fullName>AC_Change_Plan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Change_Plan</shortDescription>
+        <value>Change Plan</value>
+    </labels>
+	<labels>
+        <fullName>AC_Change_Plan_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Change_Plan_URL</shortDescription>
+        <value>/lightning/webpage/%2Fapex%2FchangePlan%3FassetReferenceId%3D</value>
+    </labels>
+	<labels>
+        <fullName>AC_IncidentPrePaidCancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_IncidentPrePaidCancel</shortDescription>
+        <value>Pre Paid orders cannot be cancelled via the Incident. Create a Task to request order cancellation and assign to the Digital Connect Task queue.</value>
+    </labels>
+	<labels>
+        <fullName>AC_PayItLater_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_PayItLater_APIError</shortDescription>
+        <value>Generic technical issue. Please retry again later.</value>
+    </labels>
+    <labels>
+        <fullName>AC_PaymentMethod_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_PaymentMethod_APIError</shortDescription>
+        <value>Generic technical issue. Please retry, or try again later.</value>
+    </labels>
+    <labels>
+        <fullName>AC_PayItLater_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_PayItLater_NoRecord</shortDescription>
+        <value>No Records to display</value>
+    </labels>
+    <labels>
+        <fullName>Pay_It_Later_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>One-off Invoices</shortDescription>
+        <value>One-off Invoices</value>
+    </labels>
+    <labels>
+        <fullName>AC_Invoices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoices</shortDescription>
+        <value>Invoices</value>
+    </labels>
+    <labels>
+        <fullName>Send_Multiple_Invoices</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Multiple Invoices</shortDescription>
+        <value>Send Multiple Invoices</value>
+    </labels>
+    <labels>
+        <fullName>IDDTableComp_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDDTableComp_APIError</shortDescription>
+        <value>Generic technical issue. Please retry again later.</value>
+    </labels>
+    <labels>
+        <fullName>IDDTableComp_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDDTableComp_NoRecord</shortDescription>
+        <value>No Record to display</value>
+    </labels>
+    <labels>
+        <fullName>IDDTableComp_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDDTableComp_Title</shortDescription>
+        <value>International Direct Dialing</value>
+    </labels>
+    <labels>
+        <fullName>IRTableComp_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IRTableComp_Title</shortDescription>
+        <value>International Roaming</value>
+    </labels>
+    <labels>
+        <fullName>HROAddOns_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HROAddOns_APIError</shortDescription>
+        <value>Generic technical issue. Please retry again later.</value>
+    </labels>
+  	<labels>
+        <fullName>TaskOpenStatuses</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TaskOpenStatuses</shortDescription>
+        <value>Open,In Progress</value>
+	</labels>
+    <labels>
+        <fullName>AC_ACRHistoryFields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_ACRHistoryFields</shortDescription>
+        <value>AuthorityExpiryDate;AuthorityVerificationDate;EndDate;IsActive;Role</value>
+    </labels>
+  <labels>
+      <fullName>HardwareOnRepayment</fullName>
+      <language>en_US</language>
+      <protected>false</protected>
+      <shortDescription>HardwareOnRepayment</shortDescription>
+      <value>Hardware On Repayment</value>
+  </labels>
+  <labels>
+		<fullName>AC_BulkCaseOwnerChangeError</fullName>
+		<language>en_US</language>
+		<protected>false</protected>
+		<shortDescription>AC_BulkCaseOwnerChangeError</shortDescription>
+		<value>This case can not be modified.</value>
+   </labels>
+     <labels>
+        <fullName>AC_Error_Retrieve_Usage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Retrieve Usage</shortDescription>
+        <value>Error retrieving usage details</value>
+    </labels>
+<labels>
+        <fullName>AC_View_Usage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View Usage</shortDescription>
+        <value>View detailed data usage</value>
+    </labels>
+	   <labels>
+        <fullName>Appointment_ProfessionalInstall</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Appointment_ProfessionalInstall</shortDescription>
+        <value>Professional Install</value>
+    </labels>
+    <labels>
+        <fullName>Appointment_SelfInstall</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Appointment_SelfInstall</shortDescription>
+        <value>Self Install</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentDetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentDetails</shortDescription>
+        <value>Appointment Details</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentID</shortDescription>
+        <value>Appointment ID</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentStatus</shortDescription>
+        <value>Status</value>
+    </labels>
+	<labels>
+        <fullName>Contract_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract ID</shortDescription>
+        <value>Contract ID</value>
+    </labels>
+    <labels>
+        <fullName>NMI_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NMI label</shortDescription>
+        <value>NMI</value>
+    </labels>
+    <labels>
+        <fullName>MIRN_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MIRN label</shortDescription>
+        <value>MIRN</value>
+    </labels>
+	<labels>
+        <fullName>CustomerRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerRequired</shortDescription>
+        <value>Customer Required</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentDate</shortDescription>
+        <value>Date</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentTime</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentTime</shortDescription>
+        <value>Time</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentInstallationType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentInstallationType</shortDescription>
+        <value>Installation Type</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentNotPresent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentNotPresent</shortDescription>
+        <value>There are no Appointments for this Order.</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentAPIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentAPIError</shortDescription>
+        <value>Unable to retrieve Appointment Details at this time. Please try again later.</value>
+    </labels>
+	<labels>
+        <fullName>Appointment_Yes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Appointment_Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+	<labels>
+        <fullName>Appointment_No</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Appointment_No</shortDescription>
+        <value>No</value>
+    </labels>
+	 <labels>
+        <fullName>AppointmentTypeEXCH</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentTypeEXCH</shortDescription>
+        <value>EXCH</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentTypeField</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentTypeField</shortDescription>
+        <value>Field</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentInstallationTypeSIK</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentInstallationTypeSIK</shortDescription>
+        <value>SIK</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentInstallationTypePIK</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentInstallationTypePIK</shortDescription>
+        <value>PIK</value>
+    </labels>
+	<labels>
+        <fullName>AppointmentException</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AppointmentException</shortDescription>
+        <value>Error loading Appointments. Please contact System Administrator.</value>
+    </labels>
+	<labels>
+        <fullName>AC_DXPOnboardCustomer_SIT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC DXPOnboardCustomer SIT</shortDescription>
+        <value>https://dxp-sit.prep.telstra.com/csrtb?onboardcustomer</value>
+    </labels>
+    <labels>
+        <fullName>AC_DXPc360_PROD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC DXPc360 PROD</shortDescription>
+        <value>https://dxp.prep.telstra.com/csrtb?c360</value>
+    </labels>
+    <labels>
+        <fullName>AC_DXPc360_SIT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC DXPc360 SIT</shortDescription>
+        <value>https://dxp-sit.prep.telstra.com/csrtb?c360</value>
+    </labels>
+    <labels>
+        <fullName>AC_DXPonboardCustomer_PROD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC DXPonboardCustomer PROD</shortDescription>
+        <value>https://dxp.prep.telstra.com/csrtb?onboardcustomer</value>
+    </labels>
+    <labels>
+        <fullName>Ineligible_for_migration_subscription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ineligible for migration subscription</shortDescription>
+        <value>Not Eligible for Migration to Subscription</value>
+    </labels>
+	<labels>
+        <fullName>Partially_eligible_for_migration_subscription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Partially eligible for migration subscription</shortDescription>
+        <value>Partially Eligible for Migration to Subscription</value>
+    </labels>
+	<labels>
+        <fullName>Eligiblity_Dispay_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eligiblity Dispay URL</shortDescription>
+        <value>/apex/oc_ac_mobiles_lwc?serviceId=strcontextId&amp;cac=strcustomerId</value>
+    </labels>
+	<labels>
+        <fullName>Eligible_for_Subscription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Eligible for migration subscription</shortDescription>
+        <value>Eligible for Migration to Subscription</value>
+    </labels>
+	<labels>
+        <fullName>Migration_Subscription_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration Subscription Error</shortDescription>
+        <value>Selected action could not be performed on this service. Please contact your System Administrator</value>
+    </labels>
+	<labels>
+        <fullName>AC_CollectionHoldAccountIdError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message for No Account.</shortDescription>
+        <value>You can't use this action for a Case that is not related to an Account.</value>
+    </labels>
+    <labels>
+        <fullName>AC_CollectionHoldPermissionError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message for No Perrmission</shortDescription>
+        <value>You don't have permission to take that action on this record. For help, contact your Salesforce admin.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Collection_Hold_Case_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Collection_Hold_Case_Number</shortDescription>
+        <value>Case Number</value>
+    </labels>
+	<labels>
+        <fullName>AC_CollectionHoldChanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CollectionHoldChanged</shortDescription>
+        <value>Please inform the customer that it may take 24 hours to process this request. If a payment is due to be deducted today or tomorrow, advise the customer that it may be deducted before the hold takes effect.</value>
+    </labels>
+    <labels>
+        <fullName>AC_CollectionRetrieveFailed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CollectionRetrieveFailed</shortDescription>
+        <value>Current Collection Status could not be retrieved. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>AC_CollectionOrServiceTreatmentRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC CollectionOrServiceTreatmentRequired</shortDescription>
+        <value>Please select the required Collection Treatment and/or Service Treatment.</value>
+    </labels>
+    <labels>
+        <fullName>AC_CollectionOrderInProgress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CollectionOrderInProgress</shortDescription>
+        <value>There are one or more open orders for this Account. If required, please follow-up to add any additional services or invoices into Collection Hold once order has completed.</value>
+    </labels>
+    <labels>
+        <fullName>AC_ReasonForTreatmentRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ReasonForTreatmentRequired</shortDescription>
+        <value>Please select Reason for Treatment.</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceTreatmentForInCollectionHold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceTreatmentForInCollectionHold</shortDescription>
+        <value>Service Treatment cannot be applied to a service without Collection Hold. Please update either Service Treatment or Collection Treatment.</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceTreatmentShouldBeResumeForSuspended</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceTreatmentShouldBeResumeForSuspended</shortDescription>
+        <value>Please set Service Treatment to Resume for all suspended services that have Collection Treatment set to Resume.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentActionsError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentActionsError</shortDescription>
+        <value>Some treatment actions could not be applied. Please check and update as required.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentHoldOrNoneError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentHoldOrNoneError</shortDescription>
+        <value>For this Reason for Treatment, all services and invoices must be placed into Collection Hold. Please set Collection Treatment to Hold for all services and invoices that are not already In Collection Hold, and set Collection Treatment to None for all services and invoices that are already In Collection Hold.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentHoldOrUpdateError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentHoldOrUpdateError</shortDescription>
+        <value>For this Reason for Treatment, all services and invoices must be placed into Collection Hold. Please set Collection Treatment to Hold for all services and invoices that are not already In Collection Hold, and set Collection Treatment to Update for all services and invoices that are already In Collection Hold (to align Expiry Date).</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentHoldOrUpdateErrorWithNoHoldOrResume</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentHoldOrUpdateErrorWithNoHoldOrResume</shortDescription>
+        <value>For this Reason for Treatment, all services and invoices must be placed into Collection Hold. Please set Collection Treatment to Hold for all services and invoices that are not already In Collection Hold, and set Collection Treatment to Update for all services and invoices that are already In Collection Hold (to align Expiry Date).</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentNoneOrResumeError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentNoneOrResumeError</shortDescription>
+        <value>For this Reason for Treatment, all services and invoices must be removed from Collection Hold at the same time. Please set Collection Treatment to Resume for all services and invoices that are already In Collection Hold, and set Collection Treatment to None for all services and invoices that are not already In Collection Hold.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentResumeError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentResumeError</shortDescription>
+        <value>There is another Collection Hold in place for this Account that is not compatible with this Collection Hold Reason. Please set Collection Treatment to Resume, then re-apply Collection Hold using the relevant Case.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentUpdateOrResumeError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentUpdateOrResumeError</shortDescription>
+        <value>Please set Collection Treatment to Update (to align Expiry Date) or Resume (if hold no longer required) for all services and invoices that are already In Collection Hold.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetTreatmentUpdateOrResumeErrorWithNoHold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetTreatmentUpdateOrResumeErrorWithNoHold</shortDescription>
+        <value>Please set Collection Treatment to Update (to align Expiry Date) or Resume (if hold no longer required) for all services and invoices that are already In Collection Hold.</value>
+    </labels>
+    <labels>
+        <fullName>AC_TreatmentDifferentCaseError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TreatmentDifferentCaseError</shortDescription>
+        <value>There is an existing Collection Hold in place for this Account with the same Reason. Please open the original Case to apply the same type of Collection Hold to additional services.</value>
+    </labels>
+    <labels>
+        <fullName>AC_TreatmentExiryDateShouldBeBlank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC TreatmentExiryDateShouldBeBlank</shortDescription>
+        <value>Please leave Treatment Expiry Date blank when Collection Treatment is not set to Hold or Update.</value>
+    </labels>
+    <labels>
+        <fullName>AC_TreatmentExpirtDateRequiredForGeneral</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC TreatmentExpirtDateRequiredForGeneral</shortDescription>
+        <value>Treatment Expiry Date must be in the future and within 30 days. Please select a different Treatment Expiry Date.</value>
+    </labels>
+    <labels>
+        <fullName>AC_TreatmentExpirtDateRequiredForNonBereavement</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC TreatmentExpirtDateRequiredForNonBereavement</shortDescription>
+        <value>Please enter Treatment Expiry Date.</value>
+    </labels>
+    <labels>
+        <fullName>AC_TreatmentExpiryDateRequiredForHardship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC TreatmentExpiryDateRequiredForHardship</shortDescription>
+        <value>Treatment Expiry Date must be in the future and within 3 months. Please select a different Treatment Expiry Date.</value>
+    </labels>
+	<labels>
+        <fullName>AC_Mobile_Prepaid_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display error when no mobile prepaid services are loaded.</shortDescription>
+        <value>Error loading Mobile prepaid Service. Please contact admin for more details.</value>
+    </labels>	
+	<labels>
+		<fullName>AC_PaymentAssistanceAccess</fullName>
+		<language>en_US</language>
+		<protected>false</protected>
+		<shortDescription>AC_PaymentAssistanceAccess</shortDescription>
+		<value>You dont have permission to take that action on this record. For help, contact your Salesforce admin.</value>
+	</labels>
+    <labels>
+        <fullName>AC_GenAndBulkCase_TaskDesc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_GenAndBulkCase_TaskDesc</shortDescription>
+        <value>Task automatically created for Collection Hold Expiry. Please extend Collection Hold if required.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Calls</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Calls</shortDescription>
+        <value>Calls</value>
+    </labels>
+    <labels>
+        <fullName>AC_Data_Usage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Data Usage</shortDescription>
+        <value>Data Usage</value>
+    </labels>
+    <labels>
+        <fullName>AC_RechargeHistory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_RechargeHistory</shortDescription>
+        <value>Recharge History</value>
+    </labels>
+    <labels>
+        <fullName>AC_Sms_And_Mms</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Sms_And_Mms</shortDescription>
+        <value>SMS &amp; MMS</value>
+    </labels>
+	<labels>
+        <fullName>AC_InvoiceRetrieveFailed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_InvoiceRetrieveFailed</shortDescription>
+        <value>Invoice details could not be retrieved. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>AC_NoInvoicesCollections</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_NoInvoicesCollections</shortDescription>
+        <value>No invoices to display</value>
+    </labels>
+    <labels>
+        <fullName>AC_NoServicesCollections</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_NoServicesCollections</shortDescription>
+        <value>No services to display</value>
+    </labels>
+    <labels>
+        <fullName>AC_insufficientAccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_insufficientAccess</shortDescription>
+        <value>insufficient access rights on object id</value>
+    </labels>
+    <labels>
+        <fullName>Different_Collection_Telstra_One_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Different Collection Telstra One Number</shortDescription>
+        <value>Please set Collection Treatment for Telstra One Number so that Collection Hold status will align to the related Mobile service.</value>
+    </labels>
+    <labels>
+        <fullName>Same_Collection_Telstra_One_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Same Collection Telstra One Number</shortDescription>
+        <value>Collection Treatment for Telstra One Number must be the same as the Collection Treatment of the related Mobile service.</value>
+    </labels>
+	<labels>
+        <fullName>AC_CSG_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CSG_Assessment</shortDescription>
+        <value>CSG_Assessment</value>
+    </labels>
+	<labels>
+        <fullName>AC_DisplayCSGGuidedAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display CSG Guided Action</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>AC_Article_ProcessName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Article_ProcessName</shortDescription>
+        <value>Knowlegde_90Days_Validation_Process</value>
+    </labels>
+    <labels>
+        <fullName>AC_Article_Validation_Days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Article Validation Days</shortDescription>
+        <value>120</value>
+    </labels>
+    <labels>
+        <fullName>AC_Knowledge_Team</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Knowledge Team</shortDescription>
+        <value>Knowledge Manager,Knowledge Specialist</value>
+    </labels>
+    <labels>
+        <fullName>Knowledge_Article_Feedback</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Knowledge Article Feedback</shortDescription>
+        <value>Knowledge Article Feedback</value>
+    </labels>
+    <labels>
+        <fullName>Topic_Discussions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Topic Discussions</shortDescription>
+        <value>Topic Discussions</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Follow_Body</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Follow Body</shortDescription>
+        <value>Click here to view</value>
+    </labels>
+    <labels>
+        <fullName>Article_Follow_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Article Follow Message</shortDescription>
+        <value>An update has been made to an article you are following -</value>
+    </labels>
+    <labels>
+        <fullName>FeedItem_Follow_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FeedItem Follow Message</shortDescription>
+        <value>A post has been made to an article you are following -</value>
+    </labels>
+    <labels>
+        <fullName>custom_follow_notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>custom_follow_notification</shortDescription>
+        <value>custom_follow_notification</value>
+    </labels>
+    <labels>
+        <fullName>Technical_Issues</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Technical Support</shortDescription>
+        <value>/ourKnowledge/s/article/Technical-Support</value>
+    </labels>
+    <labels>
+        <fullName>Training_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Resources</shortDescription>
+        <value>/ourKnowledge/s/article/Training-Resources</value>
+    </labels>
+	<labels>
+        <fullName>Telstra_Where_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Telstra Where URL</shortDescription>
+        <value>https://maps.gcm.telstra.com.au/api/map-ui/v1/?mode=mobile&amp;nav=true&amp;key=25qWJa0roNDIv66FsLy0D1ZwU6cesnPY</value>
+    </labels>
+    <labels>
+        <fullName>Our_Knowledge_Guest_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Our Knowledge Guest Url</shortDescription>
+        <value>https://communities.inside.telstra.com/ourKnowledgeGuest</value>
+    </labels>
+    <labels>
+        <fullName>AC_PROD_Community_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC PROD Community URL</shortDescription>
+        <value>https://communities.inside.telstra.com/ourKnowledge/s/</value>
+    </labels>
+    <labels>
+        <fullName>AC_Boost_Company_ABN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Boost Company ABN</shortDescription>
+        <value>19 092 384 417</value>
+    </labels>
+	<labels>
+        <fullName>PaymentSendLink_Medium_Type_Email</fullName>
+        <categories>PaymentSendLink</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentSendLink Medium Type Email</shortDescription>
+        <value>email</value>
+    </labels>
+    <labels>
+        <fullName>PaymentSendLink_Medium_Type_SMS</fullName>
+        <categories>PaymentSendLink</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentSendLink Medium Type SMS</shortDescription>
+        <value>SMS</value>
+    </labels>
+    <labels>
+        <fullName>PaymentSendLink_Registered_Email</fullName>
+        <categories>PaymentSendLink</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentSendLink Registered Email </shortDescription>
+        <value>Registered Email</value>
+    </labels>
+    <labels>
+        <fullName>PaymentSendLink_Registered_Mobile_Number</fullName>
+        <categories>PaymentSendLink</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentSendLink Registered Mobile Number</shortDescription>
+        <value>Registered Mobile Number</value>
+    </labels>
+	<labels>
+        <fullName>PaymentSendLink_StaticCommunities_PageURL</fullName>
+        <categories>PaymentSendLink</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentSendLink StaticCommunities PageURL</shortDescription>
+        <value>https://telstra-retail.force.com</value>
+    </labels>
+    <labels>
+        <fullName>Validate_Priority_With_Complaint_Source</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validate Priority With Complaint Source</shortDescription>
+        <value>The selected Priority is not valid with this Complaint Source. Please select an appropriate Priority.</value>
+    </labels>
+  <labels>
+        <fullName>AC_Case_Owner_Change_Restriction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Case Owner Change Restriction</shortDescription>
+        <value>Case cannot be assigned to this queue with the currently selected values. Please search for complaint queue matrix in Knowledge to determine the appropriate queue.</value>
+    </labels>
+	    <labels>
+        <fullName>Generic_HRO_Page_Header</fullName>
+        <categories>HRO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic HRO Page Header</shortDescription>
+        <value>Hardware on Repayment</value>
+    </labels>
+    <labels>
+        <fullName>Generic_HRO_Product_Subtype</fullName>
+        <categories>HRO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic HRO Product Subtype</shortDescription>
+        <value>AdditionalDevice</value>
+    </labels>
+    <labels>
+        <fullName>Loyalty_HRO_Page_Header</fullName>
+        <categories>HRO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loyalty HRO Page Header</shortDescription>
+        <value>Loyalty Shop Hardware</value>
+    </labels>
+    <labels>
+        <fullName>Loyalty_HRO_Product_Subtype</fullName>
+        <categories>HRO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loyalty HRO Product Subtype</shortDescription>
+        <value>HardwareRepaymentOption</value>
+    </labels>
+	<labels>
+        <fullName>AC_AvailSlot_Path</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_AvailSlot_Path</shortDescription>
+        <value>available-slots</value>
+	</labels>
+	<labels>
+        <fullName>PaymentSendLink_Max_Attempts</fullName>
+        <categories>PaymentSendLink</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaymentSendLink Max Attempts</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>AC_HardwareAndAccessories</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_HardwareAndAccessories</shortDescription>
+        <value>Hardware &amp; Accessories</value>
+    </labels>  
+	<labels>
+        <fullName>TONTableComp_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TONTableComp_Title</shortDescription>
+        <value>Telstra One Number</value>
+    </labels>
+    <labels>
+        <fullName>AC_Enable_CLI_Update</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Enable CLI Update</shortDescription>
+        <value>false</value>
+    </labels>
+  	<labels>
+        <fullName>AC_CollectionTelstraOneChanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CollectionTelstraOneChanged</shortDescription>
+        <value>Note: Service Treatment for Telstra One Number services will be automatically applied in the network when the related Mobile service is suspended or resumed.</value>
+    </labels>
+    <labels>
+        <fullName>AC_InvoiceResumeChanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_InvoiceResumeChanged</shortDescription>
+        <value>For Invoices being removed from hold, please inform the customer that if the due date of the Invoice has passed they will need to make the payment as no direct debit will be attempted. (To check due date, go to the Account - Payments - Invoices tab and View the Invoice.)</value>
+    </labels>
+	<labels>
+        <fullName>NewAppointmentBookMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewAppointmentBookMsg</shortDescription>
+        <value>Appointment slot &amp; contact details have been updated successfully. The same may take some time to reflect in Appointments tab</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_500</fullName>
+        <categories>caseSMS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message 500</shortDescription>
+        <value>SMS could not be sent. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Generic</fullName>
+        <categories>caseSMS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Generic</shortDescription>
+        <value>SMS could not be sent. Please check the number and try again.</value>
+    </labels>
+    <labels>
+        <fullName>Success_Message</fullName>
+        <categories>caseSMS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success Message</shortDescription>
+        <value>SMS Sent.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Add_Payment_Method</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Add_Payment_Method</shortDescription>
+        <value>Add Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Methods_Not_Found_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Methods_Not_Found_Msg</shortDescription>
+        <value>This Account has no Payment Methods available.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Add_Payment_Method_Via_OTL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Add_Payment_Method_Via_OTL</shortDescription>
+        <value>Add Payment Method via One-Time Link</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Method_Added_Success_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Method_Added_Success_Msg</shortDescription>
+        <value>Payment method has been added successfully.</value>
+    </labels>
+    <labels>
+        <fullName>AC_OrderCancelledNewAppointment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_OrderCancelledNewAppointment</shortDescription>
+        <value>You cannot create an appointment as this order has been cancelled.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetAsDefaultPaymentBankAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_SetAsDefaultPaymentBankAccount</shortDescription>
+        <value>A Bank Account has been set as the default payment method.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetAsDefaultPaymentCreditCard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_SetAsDefaultPaymentCreditCard</shortDescription>
+        <value>A Credit Card has been set as the default payment method.</value>
+    </labels>
+    <labels>
+        <fullName>AC_SetAsDefaultPaymentDebitCard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_SetAsDefaultPaymentDebitCard</shortDescription>
+        <value>A Debit Card has been set as the default payment method.</value>
+    </labels>	
+    <labels>
+        <fullName>AC_Set_As_Default_202_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Set_As_Default_202_Msg</shortDescription>
+        <value>To set this payment method as default, use the Set as Default action from the Payment Methods table.</value>
+    </labels>
+	<labels>
+        <fullName>AC_RetiredAccountMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_RetiredAccountMessage</shortDescription>
+        <value>You cannot create a new record on an Account that has been retired.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Edit_Privileges_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Edit privileges Error</shortDescription>
+        <value>Oops...you don&apos;t have the necessary privileges to edit this record. See your administrator for help.</value>
+    </labels>
+	<labels>
+		<fullName>AC_AmendPCD_Page_URL</fullName>
+		<language>en_US</language>
+		<protected>false</protected>
+		<shortDescription>AC AmendPCD Page URL</shortDescription>
+		<value>/lightning/webpage/%2Fapex%2FamendPCD%3ForderRefNumber%3D</value>
+	</labels> 
+    <labels>
+        <fullName>Close_Hours_GeneralSpeedRemediation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close_Hours_GeneralSpeedRemediation</shortDescription>
+        <value>-2880</value>
+    </labels>
+    <labels>
+        <fullName>AC_Speed_Remediation_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Speed Remediation Queue</shortDescription>
+        <value>Fixed Speed Remediation Queue</value>
+    </labels>
+	<labels>
+        <fullName>AC_CIJ_API_Key</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CIJ_API_Key</shortDescription>
+        <value>cij.speedexperience.v1.status</value>
+    </labels>
+    <labels>
+        <fullName>AC_CIJ_API_Path</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_CIJ_API_Path</shortDescription>
+        <value>application/nbnspeedstatus/v1/nbnspeedremediation/submit-status</value>
+    </labels>
+	<labels>
+        <fullName>UpdateABN_ACN_ErrorMsg</fullName>
+        <categories>Update ABN ACN BusinessName</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UpdateABN_ACN_ErrorMsg</shortDescription>
+        <value>Unable to retrieve information for that ABN.</value>
+    </labels>
+    <labels>
+        <fullName>AC_CSG_Reject_Reasons</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC CSG Reject Reasons</shortDescription>
+        <value>Mass Service Disruption,Interim Offered,Smart Modem delivered/activated,Customer Delay,Customer Premise Equipment,Transition - Active service throughout,Transition - Disconnection not notified,MCD Met,No Fault found,More than 5 Active line,Status - Port/Churn/CHOWN,Ineligible service - DOT/Wholesale/ISDN/NR</value>
+    </labels>
+    <labels>
+        <fullName>PrePaid_Category_Domestic_Data</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PrePaid Category Domestic Data</shortDescription>
+        <value>Domestic Data</value>
+    </labels>
+    <labels>
+        <fullName>PrePaid_Category_serviceId_5001</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PrePaid Category serviceId 5001</shortDescription>
+        <value>5001</value>
+    </labels>
+    <labels>
+        <fullName>BusinessType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BusinessType</shortDescription>
+        <value>Business</value>
+    </labels>
+        <labels>
+        <fullName>ACNBNAMflow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ACNBNAMflow</shortDescription>
+        <value>AC_NBNAM_flow</value>
+    </labels>
+    <labels>
+        <fullName>AC_Article_ProcessName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Article_ProcessName</shortDescription>
+        <value>Knowlegde_90Days_Validation_Process</value>
+    </labels>
+    <labels>
+        <fullName>AC_Article_Validation_Days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Article Validation Days</shortDescription>
+        <value>120</value>
+    </labels>
+    <labels>
+        <fullName>AC_CaseOwnerNotInQueueError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Owner Not In Queue Error</shortDescription>
+        <value>Only Queue Member can change the Case Owner</value>
+    </labels>
+    <labels>
+        <fullName>AC_ChangeNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ChangeNumber</shortDescription>
+        <value>Change Number</value>
+    </labels>
+    <labels>
+        <fullName>AC_CustomerStoryMoreInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Story More Info</shortDescription>
+        <value>More info</value>
+    </labels>
+    <labels>
+        <fullName>AC_IncludeExternalStories</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include External Stories</shortDescription>
+        <value>Include external stories</value>
+    </labels>
+    <labels>
+        <fullName>AC_Knowledge_Team</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Knowledge Team</shortDescription>
+        <value>Knowledge Manager,Knowledge Specialist</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_APIError</shortDescription>
+        <value>Error retrieving the payment history, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_Failed_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_Failed_APIError</shortDescription>
+        <value>Error retrieving the failed payment history, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_Failed_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_Failed_NoRecord</shortDescription>
+        <value>No failed payment records found</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_History_NoRecord</shortDescription>
+        <value>No payment records found</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Method_APIError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Method_APIError</shortDescription>
+        <value>Error retrieving the payment methods, please reload the page or retry after sometime</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_Method_NoRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Payment_Method_NoRecord</shortDescription>
+        <value>No payment methods found</value>
+    </labels>
+    <labels>
+        <fullName>AC_Validation_Confirmation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Validation Confirmation Message</shortDescription>
+        <value>Are you sure you wish to validate your article without making any updates?</value>
+    </labels>
+    <labels>
+        <fullName>AC_ReplaceSIM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ReplaceSIM</shortDescription>
+        <value>Replace SIM</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceAddOns</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceAddOns</shortDescription>
+        <value>Add Ons</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceDevice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceDevice</shortDescription>
+        <value>Device</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceID</shortDescription>
+        <value>Service ID</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceOverview</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceOverview</shortDescription>
+        <value>Overview</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServicePlan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServicePlan</shortDescription>
+        <value>Plan</value>
+    </labels>
+    <labels>
+        <fullName>AC_ServiceStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC ServiceStatus</shortDescription>
+        <value>Service Status</value>
+    </labels>
+    <labels>
+        <fullName>AC_Service_Contact_Authenticated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Service_Contact_Authenticated</shortDescription>
+        <value>This contact is Account Owner/Full Authority and I have performed enhanced authentication for this contact</value>
+    </labels>
+    <labels>
+        <fullName>CaseCloseWFutureEvents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case close with future-dated Events.</shortDescription>
+        <value>Please delete all future Events before closing the Case. Go to Open Activities on the Related tab to delete all future events.</value>
+    </labels>
+    <labels>
+        <fullName>CaseCloseWOpenTasks</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Close with open Tasks.</shortDescription>
+        <value>Please close all Tasks before closing the Case. Go to Open Activities on the Related tab to close the tasks.</value>
+    </labels>
+    <labels>
+        <fullName>CaseCloseWOpenTasksWFutureEvents</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case close with open Tasks and future-dated Events.</shortDescription>
+        <value>Please close all Tasks and delete all future Events  before closing the Case. To do this, go to Open Activities on the Related tab.</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Case_Event_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Case Event Error</shortDescription>
+        <value>You can't add an Event if the Case is closed.</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Case_Task_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed Case Task Error</shortDescription>
+        <value>You can't add a Task if the Case is closed.</value>
+    </labels>
+    <labels>
+        <fullName>PS_Create_Fault_Case</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PS_Create_Fault_Case</shortDescription>
+        <value>PS_Create_Fault_Case</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Tcmuuid_Not_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tcmuuid_Not_Found</shortDescription>
+        <value>TCMUUID__C not found</value>
+    </labels>
+    <labels>
+        <fullName>Two_Zero_Four</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Two_Zero_Four</shortDescription>
+        <value>204</value>
+    </labels>
+    <labels>
+        <fullName>Two_Zero_One</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Two_Zero_One</shortDescription>
+        <value>201</value>
+    </labels>
+    <labels>
+        <fullName>Two_Zero_Zero</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Two_Zero_Zero</shortDescription>
+        <value>200</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Lock_Row</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unable_To_Lock_Row</shortDescription>
+        <value>Unable_To_Lock_Row</value>
+    </labels>
+    <labels>
+        <fullName>Update_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update_Successful</shortDescription>
+        <value>Update Successful</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation_Error</shortDescription>
+        <value>Validation error</value>
+    </labels>
+    <labels>
+        <fullName>apexrest_NotifyContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>apexrest NotifyContact</shortDescription>
+        <value>/services/apexrest/NotifyContact</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Account_Has_Multiple_LegalLessee_Contacts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer_Account_Has_Multiple_LegalLessee_Contacts</shortDescription>
+        <value>Customer Account has multiple legal lessee contacts</value>
+    </labels>
+    <labels>
+        <fullName>Account_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Owner</shortDescription>
+        <value>Account Owner</value>
+    </labels>
+    <labels>
+        <fullName>Legal_Lessee</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Legal Lessee</shortDescription>
+        <value>Legal Lessee</value>
+    </labels>
+    <labels>
+        <fullName>Third_Party</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Third Party</shortDescription>
+        <value>Third Party</value>
+    </labels>
+    <labels>
+        <fullName>Thrd_Party</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Thrd Party</shortDescription>
+        <value>3rd Party</value>
+    </labels>
+    <labels>
+        <fullName>CreateAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreateAction</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>UpdateAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UpdateAction</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>CustomerStoryTimedOutError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomerStoryTimedOutError</shortDescription>
+        <value>Something went wrong. An error is preventing Customer Stories from displaying.</value>
+    </labels>
+    <labels>
+        <fullName>NoRecentStoriesFound</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoRecentStoriesFound</shortDescription>
+        <value>This customer has no recent stories to display.</value>
+    </labels>
+    <labels>
+        <fullName>ServiceCardContractedUntil</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceCardContractedUntil</shortDescription>
+        <value>Contracted Until</value>
+    </labels>
+    <labels>
+        <fullName>ServiceCardPriorityAssist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceCardPriorityAssist</shortDescription>
+        <value>(Priority Assist)</value>
+    </labels>
+    <labels>
+        <fullName>ServiceCardServiceID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ServiceCardServiceID</shortDescription>
+        <value>Service ID</value>
+    </labels>
+    <labels>
+        <fullName>AC_Account_Creation_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Account Creation Error</shortDescription>
+        <value>Please follow the ordering process to create a new account.</value>
+    </labels>
+    <labels>
+        <fullName>Block_Trigger_Run</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Block Trigger Run</shortDescription>
+        <value>False</value>
+    </labels>
+    <labels>
+        <fullName>CI_CD_Username</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CI_CD_Username</shortDescription>
+        <value>CICD Deployment</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message</shortDescription>
+        <value>Upload Blocked. File type not allowed.</value>
+    </labels>
+    <labels>
+        <fullName>File_Extensions_Allowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File_Extensions_Allowed</shortDescription>
+        <value>csv,xls,xlsx,doc,docx,odt,pdf,txt,json,gif,jpg,png,pps,ppsx,ppt,pptm,pptx,xml,xlsm,msg,wav,eml,jpeg</value>
+    </labels>
+    <labels>
+        <fullName>Ids_to_be_Excluded</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ids_to_be_Excluded</shortDescription>
+        <value>a19,a2E,a3v</value>
+    </labels>
+    <labels>
+        <fullName>ABN_Number_Invalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ABN_Number_invalid</shortDescription>
+        <value>The ABN Number entered is invalid. Please update ABN Number.</value>
+    </labels>
+    <labels>
+        <fullName>ACN_Number_Invalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ACN_Number_Invalid</shortDescription>
+        <value>The ACN Number entered is invalid. Please update ACN Number.</value>
+    </labels>
+    <labels>
+        <fullName>Australia</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Australia</shortDescription>
+        <value>Australia</value>
+    </labels>
+    <labels>
+        <fullName>English</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>English</shortDescription>
+        <value>English</value>
+    </labels>
+    <labels>
+        <fullName>Physical_Address_is_mandatory_for_an_Account_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Physical Address is mandatory for an Account Owner</shortDescription>
+        <value>Physical Address is mandatory for an Account Owner</value>
+    </labels>
+    <labels>
+        <fullName>Residential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Residential</shortDescription>
+        <value>Residential</value>
+    </labels>
+    <labels>
+        <fullName>Sole_Trader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sole Trader</shortDescription>
+        <value>Sole Trader</value>
+    </labels>
+    <labels>
+        <fullName>AC_Revalidation_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC_Revalidation_Message</shortDescription>
+        <value>This article is now over 120 days old and requires re-validation.</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Payment History Status</shortDescription>
+        <value>authorised, settling, settled, settlement_pending</value>
+    </labels>
+    <labels>
+        <fullName>AC_Payment_History_VIP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Payment History VIP</shortDescription>
+        <value>AgentConsole_PaymentHistory</value>
+    </labels>
+    <labels>
+        <fullName>InstanceURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InstanceURL</shortDescription>
+        <value>https://telstra-retail--b2csqi12.cs115.my.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>IgnoreUser</fullName>
+        <categories>UserId</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IgnoreUser</shortDescription>
+        <value>0052P000000ILSqQAO</value>
+    </labels>
+    <labels>
+        <fullName>BU_Is_Blank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BU_Is_Blank</shortDescription>
+        <value>Business Unit is Mandatory. Please specify Business Unit value</value>
+    </labels>
+    <labels>
+        <fullName>SOU_Is_Blank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOU_Is_Blank</shortDescription>
+        <value>SOU is Mandatory. Please specify SOU</value>
+    </labels>
+    <labels>
+        <fullName>MSeg_Is_Blank</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MSeg_Is_Blank</shortDescription>
+        <value>Market Segment is mandatory. Please specify Market Segment</value>
+    </labels>
+    <labels>
+        <fullName>Status_Merged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merged Status</shortDescription>
+        <value>Merged</value>
+    </labels>
+    <labels>
+        <fullName>Status_Retired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Retired Status</shortDescription>
+        <value>Retired</value>
+    </labels>
+    <labels>
+        <fullName>Status_Active</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Active Status</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>Status_Acquired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Acquired Status</shortDescription>
+        <value>Acquired</value>
+    </labels>
+    <labels>
+        <fullName>PIMS_Partner_Login</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PIMS Partner Login</shortDescription>
+        <value>Partner_Login</value>
+    </labels>
+    <labels>
+        <fullName>PIMS_Partner_Profile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PIMS Partner Profile</shortDescription>
+        <value>Partner Stores</value>
+    </labels>
+    <!--<labels>
+        <fullName>PIMS_Switch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PIMS Switch</shortDescription>
+        <value>TRUE</value>
+    </labels>-->
+    <labels>
+        <fullName>TCM_Profile_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TCM_Profile_ID</shortDescription>
+        <value>PostDeploystep</value>
+    </labels>
+        <labels>
+        <fullName>Merge_User_id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge_User_id</shortDescription>
+        <value>PostDeploystep</value>
+    </labels>
+    <labels>
+        <fullName>AC_Contact_Creation_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Contact Creation Error</shortDescription>
+        <value>To create a new contact, go to the Account, and click on the New Contact Button from the Account Screen.</value>
+    </labels>
+    <labels>
+        <fullName>TDI_Genericerror</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TDI Oauth error</shortDescription>
+        <value>Unable to find user</value>
+    </labels>
+    <labels>
+        <fullName>TDI_GenericDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TDI_GenericDescription</shortDescription>
+        <value>We&apos;re unable to process your order at this time.</value>
+    </labels>
+    <labels>
+        <fullName>TDI_Inactive_User_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TDI Inactive User Error</shortDescription>
+        <value>This contact is no longer active.</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Error_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Error Contact</shortDescription>
+        <value>Please contact us on</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Error_Heading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Error Heading</shortDescription>
+        <value>Something went wrong</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Error_Live_chat</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Error Live chat</shortDescription>
+        <value>live chat</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Error_Telstra</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Error Telstra</shortDescription>
+        <value>Take me back to Telstra.com.au</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_object_not_deletable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels>
+    <labels>
+        <fullName>sys_security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>sys_security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels>
+    <labels>
+        <fullName>EUPM_Switch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EUPM_Switch</shortDescription>
+        <value>ON</value>
+    </labels>
+    <labels>
+        <fullName>DeleteRecords</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeleteRecords</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>StorageLimitNotifierEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StorageLimitNotifierEmail</shortDescription>
+        <value>Sheena.john@team.telstra.com</value>
+    </labels>
+    <labels>
+        <fullName>StoragePercentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StoragePercentage</shortDescription>
+        <value>10</value>
+    </labels>
+    <labels>
+        <fullName>Loyalty_Spnd_Time</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loyalty Spnd Time</shortDescription>
+        <value>365</value>
+    </labels>
+    <labels>
+        <fullName>Loyalty_UnEnrolled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loyalty UnEnrolled Days</shortDescription>
+        <value>30</value>
+    </labels>
+    <labels>
+        <fullName>Loyalty_MC_Create</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loyalty MC Create</shortDescription>
+        <value>true</value>
+    </labels>
+    <labels>
+        <fullName>BatchAccACREnrUpdateQuerySwitch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BatchAccACREnrUpdateQuerySwitch</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>BatchAccACRSpndUpdateQuerySwitch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BatchAccACRSpndUpdateQuerySwitch</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>AC_Task_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AC Task Description</shortDescription>
+        <value>Task automatically created for Account Hold Expiry. Please re-apply credit hold if complaint is still open.</value>
+    </labels>
+    <labels>
+        <fullName>Address_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Id</shortDescription>
+        <value>Address Id</value>
+    </labels>
+    <labels>
+        <fullName>Address_Insert_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Insert_Failed</shortDescription>
+        <value>Address Insert Failed</value>
+    </labels>
+    <labels>
+        <fullName>ApexRest_NotifyCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ApexRest NotifyCustomer</shortDescription>
+        <value>/services/apexrest/NotifyCustomer</value>
+    </labels>
+    <labels>
+        <fullName>Asset_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Role Asset User</shortDescription>
+        <value>Asset User</value>
+    </labels>
+    <labels>
+        <fullName>AudittrailLogHours</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AudittrailLogHours</shortDescription>
+        <value>-24</value>
+    </labels>
+    <labels>
+        <fullName>CDM_Profile_id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CDM_Profile_id</shortDescription>
+        <value>PostDeploystep</value>
+    </labels>
+    <labels>
+        <fullName>Close_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close_Msg</shortDescription>
+        <value>"}</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Not_Exists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact_Not_Exists</shortDescription>
+        <value>Contact does not exist</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Account_Missing_For_This_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer_Account_Missing_for_this_contact</shortDescription>
+        <value>Customer Account Missing for this Contact</value>
+    </labels>
+    <labels>
+        <fullName>DAVINCI_SERVICE_IN_B2CFORCE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DAVINCI SERVICE IN B2CFORCE</shortDescription>
+        <value>SOURCE CUSTOMER HAS DAVINCI SERVICE IN B2CFORCE</value>
+    </labels>
+    <labels>
+        <fullName>Destination_System_Sfdc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Destination_System_Sfdc</shortDescription>
+        <value>SFDC</value>
+    </labels>
+    <labels>
+        <fullName>Duplicate_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate_Value</shortDescription>
+        <value>duplicate value found</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0501</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0501</shortDescription>
+        <value>0501</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0502</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0502</shortDescription>
+        <value>0502</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0503</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0503</shortDescription>
+        <value>0503</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Not_Exists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer_Not_Exists</shortDescription>
+        <value>Customer account does not exist</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0504</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0504</shortDescription>
+        <value>0504</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0599</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0599</shortDescription>
+        <value>0599</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0600</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0600</shortDescription>
+        <value>0600</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0601</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0601</shortDescription>
+        <value>0601</value>
+    </labels>
+    <labels>
+        <fullName>Error_Msg_One</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Msg_One</shortDescription>
+        <value>{"errorCode": "1", "message": "</value>
+    </labels>
+    <labels>
+        <fullName>Error_Msg_Two</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Msg_Two</shortDescription>
+        <value>{"errorCode" : "2", "message": "</value>
+    </labels>
+    <labels>
+        <fullName>Exception_Log_Failure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exception_Log_Failure</shortDescription>
+        <value>Failure</value>
+    </labels>
+    <labels>
+        <fullName>Failed_String</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Failed String</shortDescription>
+        <value>Failed</value>
+    </labels>
+    <labels>
+        <fullName>Failed_To_Process_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Failed_To_Process_Request</shortDescription>
+        <value>Failed To Process Request</value>
+    </labels>
+    <labels>
+        <fullName>Five_Houndred</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Five_Houndred</shortDescription>
+        <value>500</value>
+    </labels>
+    <labels>
+        <fullName>Four_Hundred</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Four_Hundred</shortDescription>
+        <value>400</value>
+    </labels>
+    <labels>
+        <fullName>Four_Zero_Nine</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Four_Zero_Nine</shortDescription>
+        <value>409</value>
+    </labels>
+    <labels>
+        <fullName>Insert_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Insert_Failed</shortDescription>
+        <value>Insert failed</value>
+    </labels>
+    <labels>
+        <fullName>Insert_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Insert_Successful</shortDescription>
+        <value>Insert Successful</value>
+    </labels>
+    <labels>
+        <fullName>INVALID_ACCOUNT_MERGE_HIERARCHY_IN_B2CFORCE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INVALID ACCOUNT MERGE HIERARCHY IN B2CFORCE</shortDescription>
+        <value>INVALID_ACCOUNT_MERGE_HIERARCHY_IN_B2CFORCE</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Event_Action</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid_Event_Action</shortDescription>
+        <value>INVALID_EVENT_ACTION</value>
+    </labels>
+    <labels>
+        <fullName>Last_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last_Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Limited_Authority</fullName>
+        <categories>Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Limited Authority</shortDescription>
+        <value>Limited Authority</value>
+    </labels>
+    <labels>
+        <fullName>MERGE_CANNOT_BE_PERFORMED_FOR_ACCOUNT_OWNER_CONTACTS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MERGE CANNOT BE PERFORMED FOR ACCOUNT OWNER CONTACTS</shortDescription>
+        <value>MERGE CANNOT BE PERFORMED FOR ACCOUNT OWNER CONTACTS</value>
+    </labels>
+    <labels>
+        <fullName>MERGE_IN_PROGRESS_FOR_SOURCE_CONTACT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MERGE IN PROGRESS FOR SOURCE CONTACT</shortDescription>
+        <value>MERGE IN PROGRESS FOR SOURCE CONTACT</value>
+    </labels>
+    <labels>
+        <fullName>MERGE_IN_PROGRESS_FOR_SOURCE_CUSTOMER_ACCOUNT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MERGE IN PROGRESS FOR SOURCE CUSTOMER ACCOUNT</shortDescription>
+        <value>MERGE IN PROGRESS FOR SOURCE CUSTOMER ACCOUNT IN B2CFORCE.</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Rollback_Completed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge Rollback Completed</shortDescription>
+        <value>Rolled Back</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Rollback_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge Rollback Failed</shortDescription>
+        <value>Rollback Failed</value>
+    </labels>
+    <labels>
+        <fullName>MergeSeperator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Separator for Merge Values</shortDescription>
+        <value>||</value>
+    </labels>
+    <labels>
+        <fullName>Message_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message_Text</shortDescription>
+        <value>{"message": "</value>
+    </labels>
+    <labels>
+        <fullName>Notify_Contact_Interface_Failure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notify_Contact_Interface_Failure</shortDescription>
+        <value>Notify contact interface failure</value>
+    </labels>
+    <labels>
+        <fullName>Notify_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notify_Contact</shortDescription>
+        <value>Notify Contact</value>
+    </labels>
+    <labels>
+        <fullName>Notify_Customer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notify_Customer</shortDescription>
+        <value>Notify Customer</value>
+    </labels>
+    <labels>
+        <fullName>NotifyContact_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NotifyContact_Success</shortDescription>
+        <value>NotifyContact Success</value>
+    </labels>
+    <labels>
+        <fullName>ODM_Trigger_Flag</fullName>
+        <categories>Picklist</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ODM Trigger Flag</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>OPEN_ORDERS_PRESENT_FOR_GIVEN_SOURCE_ACCOUNT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE_OR_TARGET_VALUE_DOES_NOT_EXIST_IN_SFDC</shortDescription>
+        <value>SOURCE OR TARGET VALUE DOES NOT EXIST IN SFDC MERGE</value>
+    </labels>
+    <labels>
+        <fullName>PACKAGE_NAMESPACE_PREFIX</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PACKAGE_NAMESPACE_PREFIX</shortDescription>
+        <value>vlocity_cmt</value>
+    </labels>
+    <labels>
+        <fullName>PS_Device_Case_Management</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PS_Device_Case_Management</shortDescription>
+        <value>PS_Device_Case_Management</value>
+    </labels>
+    <labels>
+        <fullName>RecordValidated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordValidated</shortDescription>
+        <value>Validated</value>
+    </labels>
+    <labels>
+        <fullName>Required_Fields_Missing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required_Fields_Missing</shortDescription>
+        <value>Validation error due to required fields missed from payload</value>
+    </labels>
+    <labels>
+        <fullName>SendDateTime</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SendDateTime</shortDescription>
+        <value>Send Date Time;</value>
+    </labels>
+    <labels>
+        <fullName>SFDC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SFDC</shortDescription>
+        <value>SFDC</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CONTACT_DOES_NOT_EXIST_IN_SFDC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE_CONTACT_DOES_NOT_EXIST_IN_SFDC</shortDescription>
+        <value>SOURCE CONTACT DOES NOT EXIST IN SFDC</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CONTACT_HAS_AN_OPEN_CASE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE_CONTACT_HAS_AN_OPEN_CASE</shortDescription>
+        <value>SOURCE CONTACT HAS AN OPEN CASE</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CONTACT_HAS_ASSOCIATED_TASKS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE_CONTACT_HAS_ASSOCIATED_TASKS</shortDescription>
+        <value>SOURCE CONTACT HAS ASSOCIATED TASKS</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CONTACT_HAS_DAVINCI_SERVICE_IN_B2CFORCE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PACKAGE_NAMESPACE_PREFIX</shortDescription>
+        <value>vlocity_cmt</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CUSTOMER_ACCOUNT_DOES_NOT_EXIST_IN_SFDC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE CUSTOMER ACCOUNT DOES NOT EXIST IN B2CFORCE</shortDescription>
+        <value>SOURCE CUSTOMER ACCOUNT DOES NOT EXIST IN B2CFORCE.</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CUSTOMER_HAS_AN_OPEN_CASE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE CUSTOMER HAS AN OPEN CASE</shortDescription>
+        <value>SOURCE CUSTOMER HAS AN OPEN CASE</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_CUSTOMER_HAS_AN_OPEN_TASK</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE CUSTOMER HAS AN OPEN TASK</shortDescription>
+        <value>SOURCE CUSTOMER HAS AN OPEN TASK</value>
+    </labels>
+    <labels>
+        <fullName>SOURCE_OR_TARGET_VALUE_DOES_NOT_EXIST_IN_SFDC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOURCE_OR_TARGET_VALUE_DOES_NOT_EXIST_IN_SFDC</shortDescription>
+        <value>SOURCE OR TARGET VALUE DOES NOT EXIST IN SFDC MERGE</value>
+    </labels>
+    <labels>
+        <fullName>TARGET_CONTACT_DOES_NOT_EXIST_IN_SFDC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TARGET_CONTACT_DOES_NOT_EXIST_IN_SFDC</shortDescription>
+        <value>TARGET CONTACT DOES NOT EXIST IN SFDC</value>
+    </labels>
+    <labels>
+        <fullName>TARGET_CONTACT_HAS_A_ASSOCIATED_CASE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TARGET CONTACT HAS A ASSOCIATED CASE</shortDescription>
+        <value>TARGET CONTACT HAS A ASSOCIATED CASE.</value>
+    </labels>
+    <labels>
+        <fullName>TARGET_CUSTOMER_ACCOUNT_DOES_NOT_EXIST_IN_SFDC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TARGET CUSTOMER ACCOUNT DOES NOT EXIST IN B2CFORCE</shortDescription>
+        <value>TARGET CUSTOMER ACCOUNT DOES NOT EXIST IN B2CFORCE.</value>
+    </labels>
+    <labels>
+        <fullName>Telstra_Account_01</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Telstra Account 01</shortDescription>
+        <value>Telstra_Account_01</value>
+    </labels>
+    <labels>
+        <fullName>Telstra_Administrator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Telstra Administrator</shortDescription>
+        <value>Telstra_Administrator</value>
+    </labels>
+    <labels>
+        <fullName>Telstra_API_Only</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Telstra_API_Only</shortDescription>
+        <value>Telstra API Only</value>
+    </labels>
+    <labels>
+        <fullName>Telstra_RSA_Account_01</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Telstra RSA Account 01</shortDescription>
+        <value>Telstra_RSA_Account_01</value>
+    </labels>
+    <labels>
+        <fullName>Telstra_Test_Account_01</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Telstra Test Account 01</shortDescription>
+        <value>Telstra_Test_Account_01</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation Failed</shortDescription>
+        <value>Validation Failed</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0359</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0359</shortDescription>
+        <value>0359</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0361</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0361</shortDescription>
+        <value>0361</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0366</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0366</shortDescription>
+        <value>0366</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0367</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0367</shortDescription>
+        <value>0367</value>
+    </labels>
+    <labels>
+        <fullName>Error_Code_0398</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code 0398</shortDescription>
+        <value>0398</value>
+    </labels>
+    <labels>
+        <fullName>ORDER_CREATED</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ORDER CREATED</shortDescription>
+        <value>ORDER HAS BEEN CREATED AGAINST TARGET CONTACT SINCE MERGE.</value>
+    </labels>
+    </CustomLabels>
